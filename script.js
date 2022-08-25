@@ -117,11 +117,11 @@ var infityBg = {
 
 var menu = {
 
-  title: new Text("SpaceShip 13K"),
-  label: new Text("Click to Play"),
+  title: new Text("Navinha"),
+  label: new Text("Click para jogar"),
   ship : new Obj(220, 800, 60, 50,"assets/nave.png"),
 
-  score : new Text("Score: "),
+  score : new Text("Pontos: "),
   pts : new Text(score),
 
   click(){
@@ -143,9 +143,9 @@ var menu = {
 };
 
 var game = {
-  score : new Text("Score: "),
+  score : new Text("Pontos: "),
   pts : new Text("0"),
-  bullets : new Text("Bullets: "),
+  bullets : new Text("Ballas: "),
   shoot : new Text("1"),
   ship : new Obj(220, 800, 60, 50,"assets/nave.png"),
   earth: new Obj(180, 800, 180, 180, "assets/terra.png"),
@@ -201,10 +201,10 @@ var game = {
 
 var gameover = {
 
-  score : new Text("Score: "),
+  score : new Text("Pontos: "),
   pts : new Text(score),
-  title: new Text("SpaceShip 13K"),
-  label: new Text("Click to Restart"),
+  title: new Text("Navinha"),
+  label: new Text("Click para dar Restart"),
 
   draw(){
     infityBg.draw();
