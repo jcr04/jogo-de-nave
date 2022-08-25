@@ -1,2 +1,1 @@
-# Spaceship13k
-Game made for a JS jam
+jogo feito para estudo
